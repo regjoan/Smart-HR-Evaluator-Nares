@@ -3,6 +3,7 @@ from .schemas import Features, PredictionResponse
 import joblib
 import os
 import numpy as np
+from fastapi import FastAPI
 
 app = FastAPI()
 
